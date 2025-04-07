@@ -15,6 +15,6 @@ poetry run python decrypt_pcap.py --pkey <your_private_key_path> --json <pcapng.
 ```
 - Python
 ```
-pip install pycryptodome
+pip install -r requirements.txt
 python decrypt_pcap.py --pkey <your_private_key_path> --json <pcapng.json_file_inside_zip> --pcap <pcapng.enc_file_inside_zip> --out <output_path_of_decrypted_pcap_file>
 ```
